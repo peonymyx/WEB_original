@@ -132,8 +132,7 @@ const OtherManagement = () => {
               </tr>
             </thead>
             <tbody>
-              {other
-                .filter(
+              {other.filter(
                   (item) =>
                     item.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
                     item.phone_number.includes(searchTerm)
